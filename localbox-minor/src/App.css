@@ -1,0 +1,103 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #DBC09E;
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  width: 520px;
+  margin: auto;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3e2a12;
+}
+
+.top-section {
+  margin-bottom: 15px;
+}
+
+.divider {
+  height: 1px;
+  background: #e5d6c6;
+  margin: 15px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 7px 0;
+  border: 1px solid #d6c2aa;
+  border-radius: 6px;
+  background: #fffaf5;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button[type="submit"] {
+  background: #63390f;
+  color: white;
+  width: 100%;
+}
+
+.clear-btn {
+  margin-top: 10px;
+  background: #a94438;
+  color: white;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:first-child {
+  background: #63390f;
+  color: white;
+}
+
+tr:nth-child(even):not(:first-child) {
+  background: #f7f3ee;
+}
+
+td button {
+  margin: 2px;
+  font-size: 13px;
+}
+
+td button:first-child {
+  background: #6b8e23;
+  color: white;
+}
+
+td button:last-child {
+  background: #a94438;
+  color: white;
+}
+
+.error {
+  color: #a94438;
+  font-size: 13px;
+  text-align: center;
+}
