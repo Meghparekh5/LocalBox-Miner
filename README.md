@@ -76,15 +76,6 @@ src/
 ---
 
 
-## ⚠️ Requirements
-
-* Must use React (no backend)
-* Must use localStorage
-* Data persists until manually cleared
-* Clean component-based structure
-
----
-
 ## 🎓 Learning Outcome
 
 This project helps in building a strong foundation in React by implementing real-world features like form handling, state updates, and persistent storage without using any backend.
